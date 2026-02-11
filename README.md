@@ -4,4 +4,4 @@ A fully modular Meshtastic device based on the ultra-low-power nRF52840. Support
 
 Front | Back
 --- | ---
-![Front view](./images/front.jpg) | ![Back view](./images/back.jpg)
+![Front view](/images/front.jpg) | ![Back view](/images/back.jpg)
