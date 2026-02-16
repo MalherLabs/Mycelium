@@ -1,0 +1,38 @@
+Copyright © 2026 Malher Labs
+All rights reserved.
+
+The design files in this repository, including but not limited to schematics, PCB layouts, Gerber production files, Bill of Materials (BOM), 3D case models (STL, STEP, etc.), documentation, images, renders, and any other related materials (collectively, the "Materials"), are the exclusive intellectual property of Malher Labs.
+
+### Permitted Use
+You are granted a limited, non-exclusive, non-transferable, revocable license to:
+- Download and view the Materials.
+- Manufacture one or more physical units (boards and/or cases) exclusively for your own personal, non-commercial use, or to share with friends, family, or local non-commercial community groups in México or elsewhere (as long as no money changes hands and no profit is made).
+- Distribute exact, unmodified copies of the Materials to others, provided that you:
+  - Include this complete copyright notice and license text in full.
+  - Provide clear and prominent attribution: "Design by Malher Labs – www.malherlabs.com"
+  - Include a direct link to the original repository: https://github.com/MalherLabs/Mycelium (or the current repo URL)
+
+### Prohibitions
+You may not, without prior written permission from Malher Labs:
+- Modify, adapt, remix, reverse-engineer, translate, decompile, or create any derivative works based on the Materials (including but not limited to changes to schematics, PCB layouts, 3D models, or BOM).
+- Use the Materials (or any products made from them) for any commercial purpose, including but not limited to:
+  - Selling, reselling, offering for sale, or distributing physical units, kits, or parts.
+  - Manufacturing for third parties, bulk production, import/export for commercial purposes.
+  - Including the design in any product, service, or project intended to generate revenue, profit, or business advantage.
+  - Participating in crowdfunding, sponsorships, or any monetized activity using the Materials.
+- Remove, alter, obscure, or delete this copyright notice, the attribution to Malher Labs, or any part of this license.
+- Upload, host, or redistribute the Materials on any other platform, repository, website, or storage service without explicit written authorization (linking to this original repository is permitted and encouraged).
+- Represent or claim the design as your own creation.
+
+### Commercial Rights
+Malher Labs exclusively reserves all commercial rights to the Materials. If you are interested in purchasing assembled units, kits, or obtaining a commercial license for manufacturing, distribution, or resale, please visit the official store at https://www.malherlabs.com or contact us directly.
+
+### No Warranty
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. MALHER LABS SHALL NOT BE LIABLE FOR ANY DAMAGES ARISING FROM THE USE, MANUFACTURE, OR DISTRIBUTION OF THE MATERIALS.
+
+### Contact
+For permissions, collaborations, feedback, community group orders, or any questions, please reach out via www.malherlabs.com.
+
+The Meshtastic firmware and software ecosystem have their own separate licenses and are not covered by this document.
+
+Thank you for respecting the design and helping grow the Meshtastic community in México. ¡Sigamos conectados!
