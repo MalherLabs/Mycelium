@@ -221,3 +221,51 @@ The board is designed with **full modularity**. You can build exactly what you n
 | N/A                      | 1   | Encoder Knob / Cap          | Black CAP                | N/A     | [AliExpress](https://www.aliexpress.com/wholesale?SearchText=Black+CAP+for+EC11+encoder) | Required for rotary encoder                     |
 </details>
 
+## Important Notes
+- This PCB is designed as a **modular and configurable platform**. Only populate the components required for the selected LoRa radio and desired feature set.
+- **Never power on the device without a properly tuned 915MHz antenna connected.** Transmitting at 30dBm (1 Watt) without a load (antenna) will reflect the energy back into the E22 module, causing permanent damage to the power amplifier (PA).
+- **Only one LoRa radio module must be assembled at a time** (HT-RA62 or E22-900M30S).
+- When using the **E22-900M30S (1 W) LoRa module**, the **MT3608 boost converter (3.3 V → 5 V)** must be populated to ensure stable TX operation.
+- This board uses a standard **JST PH2.0** connector. However, battery manufacturers sometimes swap the Positive (+) and Negative (-) wires. **Always verify the polarity** with a multimeter before plugging in a battery. 
+- Optional feature modules can be assembled independently unless otherwise stated in the Variants section.
+- The **GPS power control MOSFET must only be assembled if the GPS module is installed**.
+- Power consumption varies significantly depending on the selected radio and optional modules (OLED, GPS, buzzer, sensors).
+- This hardware is intended to run the **official Meshtastic firmware**. Custom firmware or unsupported configurations may require additional validation.
+- This project is intended for **educational, experimental, and maker use**. It has not been certified for commercial, safety-critical, or life-critical applications.
+
+## About Meshtastic
+
+Meshtastic® is a registered trademark of Meshtastic LLC.  
+The Meshtastic software components are released under various open-source licenses.  
+For full details, please refer to the official [Meshtastic GitHub repository](https://github.com/meshtastic).
+
+## License
+
+© 2026 Malher Labs. All rights reserved.
+
+The design files in this repository (schematics, PCB layouts, Gerber files, BOM, 3D case models, documentation, images, and related materials) are shared openly so that people in Mexico and beyond can build their own Meshtastic radios for personal use and help grow the off-grid communication community.
+
+We want to make it easy for hobbyists, hikers, emergency responders, and makers in Jalisco and all over México to experiment and stay connected — that's why we're making the files available!
+
+### What you can do:
+- Download and use the files for your **personal, non-commercial projects**.
+- Manufacture **one or more units** for yourself, your family, friends, or local community groups (as long as it's non-commercial and not for resale).
+- Share the **exact original files** (without changes) with others in México or anywhere else, as long as you:
+  - Keep this full license notice intact
+  - Give clear credit: "Design by Malher Labs – www.malherlabs.com"
+  - Include a link back to this GitHub repository
+
+### What is not allowed:
+- Any **commercial use** by third parties, including selling, reselling, offering for sale, manufacturing for profit, using in paid services, crowdfunding campaigns, or any business activity.
+- **Modifying**, remixing, adapting, reverse-engineering, or creating derivative versions of the schematics, PCB, Gerber files, BOM, or 3D case models.
+- Removing or changing this copyright notice, the attribution to Malher Labs, or the license terms.
+- Uploading or redistributing the files to other platforms/repositories without permission (linking to this repo is welcome and encouraged).
+
+If you prefer not to fabricate it yourself, or if you want an assembled unit, kit, or ready-to-use radio, check out the official store:  
+https://www.malherlabs.com
+
+We are happy to receive feedback, photos of your builds, range test results, or suggestions via issues in this repo or through the website. If you're interested in collaboration, bulk orders for community groups, or any other kind of partnership, please reach out — we'd love to support the growth of Meshtastic in México!
+
+The Meshtastic firmware has its own separate license (mainly GPL-3.0). This notice applies only to the hardware design files and 3D models in this repository.
+
+Thank you for building with us — ¡sigamos conectados sin fronteras! 📡
