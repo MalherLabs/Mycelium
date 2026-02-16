@@ -269,3 +269,13 @@ We are happy to receive feedback, photos of your builds, range test results, or 
 The Meshtastic firmware has its own separate license (mainly GPL-3.0). This notice applies only to the hardware design files and 3D models in this repository.
 
 Thank you for building with us — ¡sigamos conectados sin fronteras! 📡
+
+## Disclaimer
+
+This project is provided **as-is** for personal, non-commercial experimentation and hobby use only.
+
+- No warranties are made regarding functionality, safety, performance, reliability, or compliance with any laws or standards.
+- Use of this hardware design (including manufacturing, assembly, or operation) is **entirely at your own risk**.
+- Malher Labs is not responsible for any damage, injury, data loss, interference, legal issues, or other consequences arising from building, using, or modifying this design.
+- Radio transmission (LoRa) must comply with local regulations (e.g., IFT in Mexico). Ensure proper configuration of power, frequency, and duty cycle to avoid interference or violations.
+- The Meshtastic firmware has its own separate license and terms — this disclaimer applies only to the hardware design files in this repository.
