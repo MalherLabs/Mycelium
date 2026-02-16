@@ -1,3 +1,13 @@
+<div align="center" style="font-size: 1.3em; margin: 20px 0; font-weight: bold;">
+
+🇲🇽 ¿Prefieres leer en español? → [Versión en Español](README_es.md)  
+
+🇬🇧 Prefer English? → [English Version](README.md)
+
+</div>
+
+<br>
+
 # Malher Mycelium
 [![License: All Rights Reserved](https://img.shields.io/badge/License-All%20Rights%20Reserved-red)](LICENSE)
 
