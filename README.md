@@ -1,4 +1,6 @@
 # Malher Mycelium
+[![License: All Rights Reserved](https://img.shields.io/badge/License-All%20Rights%20Reserved-red)](LICENSE)
+
 A fully modular Meshtastic device based on the ultra-low-power nRF52840. Supports 22 dBm with the HT-RA62 or up to 1W using the E22-900M30S. The compact core PCB scales via side modules (display, GPS, sensors). Designed in Mexico for the community.
 ## Pictures
 
@@ -70,7 +72,7 @@ The board is designed with **full modularity**. You can build exactly what you n
 | **nRF52840 ProMicro board**                     | ✅ Required                            | ✅ Required                            | ✅ Required                                    |
 | **LoRa radio module**                           | ✅ Required<br>Choose one:<br>• HT-RA62 (22 dBm)<br>• E22-900M30S (30 dBm / 1 W) | ✅ Required<br>Choose one:<br>• HT-RA62 (22 dBm)<br>• E22-900M30S (30 dBm / 1 W)                         | ✅ Required<br>Choose one:<br>• HT-RA62 (22 dBm)<br>• E22-900M30S (30 dBm / 1 W)                                  |
 | **+5V Boost Regulator**                         | ⚠️ Only if E22-900M30S is used        | ⚠️ Only if E22-900M30S is used        | ⚠️ Only if E22-900M30S is used                |
-| **Power switch**                                | ❌ Add solder on JP1                   | ✅ Required                            | ✅ Required                                    |
+| **Power switch**                                | ❌ Solder bridge JP1                   | ✅ Required                            | ✅ Required                                    |
 | **Battery connector (PH2.0-2)**                 | ❌ Connect Battery directly to PCB     | ✅ Required                            | ✅ Required                                    |
 | **Battery voltage sensing**                     | ❌                                     | ✅ Required                            | ✅ Required                                    |
 | **Reset button**                                | ❌                                     | ✅ Required                            | ✅ Required                                    |
@@ -80,7 +82,7 @@ The board is designed with **full modularity**. You can build exactly what you n
 | **GPS power MOSFET switch**                     | ❌                                     | ❌                                     | ⚠️ Required only if GPS is populated          |
 | **SMD Buzzer** (message alert)                  | ❌                                     | ❌                                     | ✅ Optional                                    |
 | **Rotary encoder ** (Canned Messages)           | ❌                                     | ❌                                     | ✅ Optional                                    |
-| **INA226 current sense** (CJMCU-226 module)     | ❌ Add solder on JP4                   | ❌                                     | ✅ Optional                                    |
+| **INA226 current sense** (CJMCU-226 module)     | ❌ Solder bridge JP4                   | ❌                                     | ✅ Optional                                    |
 
 ### How to choose your build
 - **Base** → Ultra-compact, ultra-low-power node (perfect for solar or long-term deployment).
@@ -232,6 +234,11 @@ The board is designed with **full modularity**. You can build exactly what you n
 - Power consumption varies significantly depending on the selected radio and optional modules (OLED, GPS, buzzer, sensors).
 - This hardware is intended to run the **official Meshtastic firmware**. Custom firmware or unsupported configurations may require additional validation.
 - This project is intended for **educational, experimental, and maker use**. It has not been certified for commercial, safety-critical, or life-critical applications.
+
+## Ready to use?  
+Prefer a ready-to-use solution?
+Fully assembled units and DIY kits are available at:
+👉 https://www.malherlabs.com
 
 ## About Meshtastic
 
