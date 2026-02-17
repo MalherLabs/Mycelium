@@ -284,7 +284,6 @@ We are happy to receive feedback, photos of your builds, range test results, or 
 
 The Meshtastic firmware has its own separate license (mainly GPL-3.0). This notice applies only to the hardware design files and 3D models in this repository.
 
-Thank you for building with us — ¡sigamos conectados sin fronteras! 📡
 
 ## Disclaimer
 
