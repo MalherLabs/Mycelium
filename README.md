@@ -90,7 +90,7 @@ The board is designed with **full modularity**. You can build exactly what you n
 | **GPS module** (ATGM336H)                       | ❌                                     | ❌                                     | ✅ Optional                                    |
 | **GPS power MOSFET switch**                     | ❌                                     | ❌                                     | ⚠️ Required only if GPS is populated          |
 | **SMD Buzzer** (message alert)                  | ❌                                     | ❌                                     | ✅ Optional                                    |
-| **Rotary encoder ** (Canned Messages)           | ❌                                     | ❌                                     | ✅ Optional                                    |
+| **Rotary encoder** (Canned Messages)           | ❌                                     | ❌                                     | ✅ Optional                                    |
 | **INA226 current sense** (CJMCU-226 module)     | ❌ Solder bridge JP4                   | ❌                                     | ✅ Optional                                    |
 
 ### How to choose your build
